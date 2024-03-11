@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Queue;
 
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
@@ -19,8 +18,6 @@ public class PrincipalComListas {
         var filmeDoPaulo = new Filme("Dogville", 2003);
         filmeDoPaulo.avalia(10);
         Serie lost = new Serie("Lost", 2000);
-        Filme f1 = filmeDoPaulo;
-
         List<Titulo> lista = new ArrayList<>();
         lista.add(avatar);
         lista.add(favorito);
